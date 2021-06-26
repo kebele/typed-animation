@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>typing animation</title>
+</head>
+
+<body>
+    <div class="home">
+        <nav>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <span class="logo">raptor</span>
+            <a href="#">blog</a>
+            <a href="#">contact</a>
+        </nav>
+        <div class="banner-area">
+            <h3>raptor</h3>
+            <h2>I'm know a little bit <span class='typed2'></span></h2>
+        </div>
+    </div>
+    <script src="typed.js"></script>
+    <script>
+        var typed = new Typed('.typed2', {
+            strings: ["javascript", "vue", 'mongo', 'quasar'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
